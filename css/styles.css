@@ -178,3 +178,43 @@ h1, h2, h3, button {
   width: 405px;
   color: var(--white);
 }
+.site-feature {
+  padding-top: 160px;
+  padding-bottom: 200px;
+}
+.feature {
+}
+.feature__list {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  margin-left: -30px;
+  padding-top: 0;
+  margin-bottom: 0;
+}
+.feature__item {
+  width: 350px;
+  margin-left: 30px;
+}
+.feature__img {
+  width: 96px;
+  height: 96px;
+  background-color: var(--yellov);
+  border-radius: 50%;
+  background-image: url(../img/info-phone.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.feature__img-scooter {
+  background-image: url(../img/info-scooter.svg);
+}
+.feature__img-scooterwithperson {
+  background-image: url(../img/info-scooter-with-person.svg);
+}
+
+.feature__heading {
+  font-size: 24px;
+  color: var(--dark-navy)
+}
+.feature__text {
+}
