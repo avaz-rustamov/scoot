@@ -125,17 +125,16 @@ h1, h2, h3, button {
   background-position: calc(50% + 653px) 420px, center center;
   background-size: auto, cover;
   background-repeat: no-repeat;
-  display: block;
 
 
 }
 .site-hero-content {
   padding-top: 153px;
   padding-bottom: 152px;
-  width: 500px;
 }
 .hero__heading {
   margin-top: 0;
+  width: 500px;
   margin-bottom: 40px;
   margin-left: 10px;
   font-size: 56px;
@@ -144,9 +143,10 @@ h1, h2, h3, button {
   color: var(--white);
   }
 .hero__text-wrapper {
-  padding-left: 65px;
   width: 405px;
   position: relative;
+  margin-left: 70px;
+
 }
 .hero__text-wrapper::before {
   position: absolute;
@@ -157,7 +157,7 @@ h1, h2, h3, button {
   width: 203px;
   background-repeat: no-repeat;
   top: 43px;
-  left: -160px;
+  left: -225px;
 }
 .hero__text-wrapper::after {
   position: absolute;
@@ -174,8 +174,7 @@ h1, h2, h3, button {
 .hero__text {
   text-align: justify;
   margin-top: 0;
-  width: 405px;
   margin-bottom: 54px;
+  width: 405px;
   color: var(--white);
-  margin-left: 60px;
 }
