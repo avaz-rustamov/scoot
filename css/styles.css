@@ -357,3 +357,26 @@ h1, h2, h3, button {
 .footer__item {
   margin-left: 18px;
 }
+.footer__wrapper-buttom {
+  display: flex;
+  align-items: center;
+}
+.social__link-list {
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style: none;
+  margin-left: -24px;
+}
+.social__link-item {
+  margin-left: 24px;
+}
+.links {
+  fill: #FCB72B;
+}
+.links:hover {
+  fill: #E5ECF4;
+  transition: 0.3s ease;
+}
