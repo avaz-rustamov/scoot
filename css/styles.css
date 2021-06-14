@@ -122,7 +122,7 @@ h1, h2, h3, button {
 /* HERO */
 .site-hero {
   background-image: url(../img/hero-round.svg), url(../img/hero-bg.png) ;
-  background-position: calc(50% + 653px) 420px, center center;
+  background-position: calc(50% + 653px) 426px, center center;
   background-size: auto, cover;
   background-repeat: no-repeat;
 
@@ -168,7 +168,7 @@ h1, h2, h3, button {
   width: 452px;
   background-repeat: no-repeat;
   top: 43px;
-  left: 610px;
+  left: 430px;
 }
 
 .hero__text {
