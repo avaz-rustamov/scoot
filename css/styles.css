@@ -324,3 +324,36 @@ h1, h2, h3, button {
 .info__img{
   margin-left: 220px;
 }
+.footer {
+  background-color: var(--dark-navy);
+}
+.site-footer {
+  background-image: url(../img/footer-bg-img.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.footer__wrapper {
+  display: flex;
+  align-items: center;
+  padding-top: 102px;
+  padding-bottom: 102px;
+}
+.footer__heading {
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: var(--white);
+  width: 415px;
+
+}
+.footer__list {
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+  list-style: none;
+  margin-left: -18px;
+  margin-left: auto;
+}
+.footer__item {
+  margin-left: 18px;
+}
