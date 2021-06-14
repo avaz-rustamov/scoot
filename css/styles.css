@@ -23,7 +23,8 @@
   --light-grey: #e5ecf4;
   --snow: #f2f5f9;
   --light-yellov: #fff4df;
-  --white: #fff
+  --white: #fff;
+  --text-color: #939CAA;
 
 }
 
@@ -40,7 +41,11 @@ html {
 
 body {
   font-family: 'Lexend Deca', 'Arial', sans-serif;
-
+  background-color: var(--white);
+  margin: 0;
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--text-color);
 }
 .container {
   max-width: 1160px;
@@ -54,7 +59,7 @@ h1, h2, h3, button {
   font-weight: 700;
 }
 .logo:active {
-  opacity: 0.5;
+  opacity: 0.8;
 
 }
 .hero {
@@ -68,6 +73,7 @@ h1, h2, h3, button {
   background-color: var(--yellov);
   padding: 14px 39px;
   color: var(--white);
+  text-transform: capitalize;
 }
 .button:hover {
   border: 3px solid var(--yellov);
@@ -110,4 +116,66 @@ h1, h2, h3, button {
 .sitenav__link:active {
   color: var(--yellov);
   opacity: 0.5;
+}
+
+
+/* HERO */
+.site-hero {
+  background-image: url(../img/hero-round.svg), url(../img/hero-bg.png) ;
+  background-position: calc(50% + 653px) 420px, center center;
+  background-size: auto, cover;
+  background-repeat: no-repeat;
+  display: block;
+
+
+}
+.site-hero-content {
+  padding-top: 153px;
+  padding-bottom: 152px;
+  width: 500px;
+}
+.hero__heading {
+  margin-top: 0;
+  margin-bottom: 40px;
+  margin-left: 10px;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -2.5px;
+  color: var(--white);
+  }
+.hero__text-wrapper {
+  padding-left: 65px;
+  width: 405px;
+  position: relative;
+}
+.hero__text-wrapper::before {
+  position: absolute;
+  content: "";
+  background-image: url(../img/hero-arrow-line.svg);
+  display: block;
+  height: 15px;
+  width: 203px;
+  background-repeat: no-repeat;
+  top: 43px;
+  left: -160px;
+}
+.hero__text-wrapper::after {
+  position: absolute;
+  content: "";
+  background-image: url(../img/hero-arrow.svg);
+  display: block;
+  height: 138px;
+  width: 452px;
+  background-repeat: no-repeat;
+  top: 43px;
+  left: 610px;
+}
+
+.hero__text {
+  text-align: justify;
+  margin-top: 0;
+  width: 405px;
+  margin-bottom: 54px;
+  color: var(--white);
+  margin-left: 60px;
 }
