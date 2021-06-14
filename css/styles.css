@@ -1,3 +1,32 @@
+@font-face {
+  font-family: 'Lexend Deca';
+  src: url('../fonts/LexendDeca-Regular.woff2') format('woff2'),
+      url('../fonts/LexendDeca-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Space Mono';
+  src: url('../fonts/SpaceMono-Bold.woff2') format('woff2'),
+      url('../fonts/SpaceMono-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --yellov: #fcb72b;
+  --dark-navy: #495567;
+  --dim-grey: #939caa;
+  --light-grey: #e5ecf4;
+  --snow: #f2f5f9;
+  --light-yellov: #fff4df;
+  --white: #fff
+
+}
+
 html {
   box-sizing: border-box;
 }
@@ -10,12 +39,75 @@ html {
 
 
 body {
+  font-family: 'Lexend Deca', 'Arial', sans-serif;
 
 }
 .container {
-  max-width: 1100px;
+  max-width: 1160px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
+}
+h1, h2, h3, button {
+  font-family: 'Space Mono', "Arial", sans-serif;
+  font-weight: 700;
+}
+.logo:active {
+  opacity: 0.5;
+
+}
+.hero {
+  display: flex;
+  align-items: center;
+}
+.button {
+  border: 3px solid transparent;
+  box-sizing: border-box;
+  text-decoration: none;
+  background-color: var(--yellov);
+  padding: 14px 39px;
+  color: var(--white);
+}
+.button:hover {
+  border: 3px solid var(--yellov);
+  box-sizing: border-box;
+  background-color: var(--white);
+  color: var(--yellov);
+}
+.button:active {
+  border: 3px solid var(--yellov);
+  box-sizing: border-box;
+  color: var(--yellov);
+  opacity: 0.6;
+}
+.sitenav {
+  margin-left: 58px;
+  margin-right: auto;
+}
+.sitenav__list {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.sitenav__list-item {
+  margin-right: 30px;
+  padding-bottom: 27px;
+  padding-top: 32px;
+}
+.sitenav__list-item:hover {
+  margin-right: 30px;
+}
+.sitenav__link {
+  text-decoration: none;
+  color: #939CAA;
+}
+.sitenav__link:hover {
+  color: var(--yellov);
+}
+.sitenav__link:active {
+  color: var(--yellov);
+  opacity: 0.5;
 }
