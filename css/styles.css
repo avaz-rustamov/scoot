@@ -183,8 +183,7 @@ h1, h2, h3, button {
   padding-top: 160px;
   padding-bottom: 200px;
 }
-.feature {
-}
+
 .feature__list {
   display: flex;
   list-style: none;
@@ -217,8 +216,7 @@ h1, h2, h3, button {
   font-size: 24px;
   color: var(--dark-navy)
 }
-.site-info {
-}
+
 .info__content-wrapper {
   display: flex;
   justify-content: space-between;
